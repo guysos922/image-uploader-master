@@ -1,0 +1,390 @@
+html, body {
+    position: relative;
+    margin: 0;
+    height: 100%;
+
+    background: #FAFAFB;
+    border-radius: 8px;
+}
+
+#credits{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: calc(50% - 287px/2);
+    top: 95%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #A9A9A9;
+
+}
+
+#background_rect{
+    position: absolute;
+    width: 402px;
+    height: 469px;
+    left: calc(50% - 402px/2);
+    top: calc(50% - 469px/2);
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+#header_1{
+    position: absolute;
+    width: auto;
+    height: 26.99px;
+    left: calc(50% - 165px/2);
+    top: 15%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+
+
+    color: #4F4F4F;
+}
+
+/* File should be Jpeg, Png,... */
+
+#header_2{
+    position: absolute;
+    width: 121px;
+    height: 14.99px;
+    left: calc(50% - 121px/2);
+    top: 27%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+
+#header_3{
+    position: absolute;
+    width: 14px;
+    height: 17.99px;
+    left: calc(50% - 14px/2);
+    top: 75%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+#drop_area{
+    position: absolute;
+    width: 338px;
+    height: 218.9px;
+    left: calc(50% - 338px/2);
+    top: 26%;
+
+    background: #F6F8FB;
+    border: 1px dashed #97BEF4;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#my-form-1 {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+}
+#my-form-2 {
+    position: absolute;
+    top:80%;
+    height: 20%;
+    width: 100%;
+}
+
+#fileElem {
+    display: none;
+}
+
+#drop_area--over {
+    position: absolute;
+    width: 338px;
+    height: 218.9px;
+    left: calc(50% - 338px/2);
+    top: 26%;
+
+    background: #F6F8FB;
+    border: 1px solid #4693ff;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+
+#svg{
+    position: absolute;
+    width: 114.13px;
+    height: 88.24px;
+    left: calc(50% - 114px/2);
+    top: 30%;
+}
+
+#in_border_text{
+    position: absolute;
+    width: 166.01px;
+    height: 17.99px;
+    left: calc(50% - 166px/2);
+    top: 80%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+#upload_button{
+    position: absolute;
+    width: 101px;
+    height: 31.98px;
+    left: calc(50% - 101px/2);
+    top: 20%;
+
+    /* Blue 1 */
+    border: none;
+    background: #2F80ED;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#upload_button #brosow_file_button{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    cursor: pointer;
+}
+
+#upload_button #button_text{
+    position: absolute;
+    width: 69px;
+    height: 15.99px;
+    left: calc(50% - 69px/2);
+    top: calc(50% - 16px/2);
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+
+
+#loading_rect{
+    position: absolute;
+    width: 400.36px;
+    height: 143.57px;
+    left: calc(50% - 400.3px/2);
+    top: calc(50% - 143.57px/2);
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: block;
+}
+
+#loading_rect #text{
+    position: absolute;
+    width: 100px;
+    height: 27px;
+    left: 10%;
+    top: 27%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    letter-spacing: -0.035em;
+
+    color: #4F4F4F;
+}
+
+#loading_rect #bar{
+    position: absolute;
+    width: 80%;
+    height: 6px;
+    left: 10%;
+    top: 60%;
+
+
+    background: #dddddd;
+    border-radius: 8px;
+}
+
+#loading_rect #inside_bar{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+
+    background: #2F80ED;
+    box-shadow: 0px 0px 5px 0px #2F80ED;
+    border-radius: 8px;
+}
+
+
+
+#ready_rect{
+    position: absolute;
+    width: 400.36px;
+    height: 454.96px;
+    left: calc(50% - 400px/2);
+    top: calc(50% - 454px/2);
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display:none;
+}
+
+#ready_rect #text{
+    position: absolute;
+    width: 198px;
+    height: 27px;
+    left: calc(50% - 198px/2);
+    top: 10%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+#ready_rect #image_uploaded{
+    position: absolute;
+    width: 338px;
+    height: 224.4px;
+    left: calc(50% - 338px/2);
+    top: 25%;
+
+    border-radius: 12px;
+}
+
+#ready_rect #link_rect{
+    position: absolute;
+    width: 90%;
+    height: 34px;
+    left: 5%;
+    top: 80%;
+
+    background: #F6F8FB;
+    /* Gray 5 */
+
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+#ready_rect #link_rect #url_text{
+    position: absolute;
+    width: 240px;
+    height: 12px;
+    left: 5%;
+    top: calc(50% - 12px/2);
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.035em;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+}
+
+#ready_rect #link_rect #copy_button{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 80%;
+    border:none;
+    /* Blue 1 */
+
+    background: #2F80ED;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#ready_rect #link_rect #copy_button #text{
+    position: absolute;
+    width: 37px;
+    height: 12px;
+    left: calc(50% - 37px/2);
+    top: calc(50% - 12px/2);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.035em;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}

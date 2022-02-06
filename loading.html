@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=Poppins&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <script src="loadingscript.js"></script>
+  <div id="loading_rect">
+    <div id="text">Uploading...</div>
+    <div id="bar">
+      <div id="inside_bar"></div>
+    </div>
+  </div>
+  <div id="ready_rect">
+    <div id="text"> Uploaded Successfully!</div>
+    <img id="image_uploaded" src="uploads\1.JPG"/>
+    <div id="link_rect">
+      <div id="url_text">https\\.....</div>
+      <button id="copy_button" onclick="copyToClipboard('url_text')">
+        <div id="text">Copy link</div>
+      </button>
+    </div>
+  </div>
+  <div id="credits">created by Guy Shindel</div>
+</body>
+
+</html>
