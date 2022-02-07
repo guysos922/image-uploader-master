@@ -3,7 +3,6 @@ window.onload = function () {
     const inputElement = document.getElementById('fileElem');
     const form = document.getElementById('my-form-1');
 
-    console.log(drop_area)
     drop_area.addEventListener("dragover", e => {
         e.preventDefault();
         drop_area.id = "drop_area--over";
@@ -19,7 +18,7 @@ window.onload = function () {
             inputElement.files = e.dataTransfer.files;
 
             form.submit()
-
+            //window.location.replace(document.body.innerText)
             //document.getElementById('background_rect').style.display = 'none';
             //document.getElementById('loading_rect').style.display =  'block';
             //updateThumbnail(drop_area, e.dataTransfer.files[0])
